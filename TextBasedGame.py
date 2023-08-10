@@ -1,3 +1,5 @@
+# Earnest Scott Lee
+
 def show_instructions():
     print("Text-Based Adventure Game")
     print("Your goal is to collect all items before encountering the villain.")
