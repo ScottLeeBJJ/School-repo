@@ -33,23 +33,23 @@ def main():
         if command == 'where can i go':
             show_available_directions(current_room)
 
-        if command.startswith('go '):
-            direction = command[3:].capitalize()  # Capitalize direction input
+        elif command.startswith('go '):
+            direction = command[3:].capitalize()
             if direction in rooms[current_room]:
                 current_room = rooms[current_room][direction]
             else:
                 print("You can't go that way!")
 
         elif command.startswith('get '):
-            item_name = command[4:]
-            if rooms[current_room]['item'] == item_name:
+            item_name = command[4:].strip()
+            if rooms[current_room]['item'] is not None and item_name.lower() == rooms[current_room]['item'].lower():
                 inventory.append(item_name)
                 rooms[current_room]['item'] = None
                 print(f"You obtained {item_name}!")
             else:
                 print("There's no such item here.")
 
-        if all(item in inventory for item in ['Key', 'Map', 'Torch']):
+        if all(item in inventory for item in ['Knife', 'Potion', 'Key']):
             print("Congratulations! You have collected all items and won the game!")
             break
 
