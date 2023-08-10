@@ -28,13 +28,13 @@ def main():
 
     while True:
         display_status(current_room, inventory, rooms[current_room]['item'])
-        command = input().lower()  # Convert input to lowercase for case-insensitivity
+        command = input().lower()
 
         if command == 'where can i go':
             show_available_directions(current_room)
 
         if command.startswith('go '):
-            direction = command[3:]
+            direction = command[3:].capitalize()  # Capitalize direction input
             if direction in rooms[current_room]:
                 current_room = rooms[current_room][direction]
             else:
