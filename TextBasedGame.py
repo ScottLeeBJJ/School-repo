@@ -1,11 +1,9 @@
-# Earnest Scott Lee
-
-
 def show_instructions():
     print("Text-Based Adventure Game")
     print("Your goal is to collect all items before encountering the villain.")
     print("Move commands: go North, go South, go East, go West")
     print("Add to Inventory: get 'item name'")
+    print("Show Available Directions: where can I go")
     print("----------------------")
 
 def display_status(room, inventory, item):
@@ -16,6 +14,12 @@ def display_status(room, inventory, item):
     print("----------------------")
     print("Enter your move:")
 
+def show_available_directions(room):
+    print("Available directions:")
+    for direction in rooms[room]:
+        if direction != 'item':
+            print(direction.capitalize())
+
 def main():
     current_room = 'Start'
     inventory = []
@@ -24,7 +28,10 @@ def main():
 
     while True:
         display_status(current_room, inventory, rooms[current_room]['item'])
-        command = input().lower()
+        command = input().lower()  # Convert input to lowercase for case-insensitivity
+
+        if command == 'where can i go':
+            show_available_directions(current_room)
 
         if command.startswith('go '):
             direction = command[3:]
