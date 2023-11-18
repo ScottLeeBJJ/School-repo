@@ -1,0 +1,14 @@
+D:\Development\SchoolCode\numbermap\NumberMap\bin\Debug\net8.0\NumberMap.exe
+D:\Development\SchoolCode\numbermap\NumberMap\bin\Debug\net8.0\NumberMap.deps.json
+D:\Development\SchoolCode\numbermap\NumberMap\bin\Debug\net8.0\NumberMap.runtimeconfig.json
+D:\Development\SchoolCode\numbermap\NumberMap\bin\Debug\net8.0\NumberMap.dll
+D:\Development\SchoolCode\numbermap\NumberMap\bin\Debug\net8.0\NumberMap.pdb
+D:\Development\SchoolCode\numbermap\NumberMap\obj\Debug\net8.0\NumberMap.GeneratedMSBuildEditorConfig.editorconfig
+D:\Development\SchoolCode\numbermap\NumberMap\obj\Debug\net8.0\NumberMap.AssemblyInfoInputs.cache
+D:\Development\SchoolCode\numbermap\NumberMap\obj\Debug\net8.0\NumberMap.AssemblyInfo.cs
+D:\Development\SchoolCode\numbermap\NumberMap\obj\Debug\net8.0\NumberMap.csproj.CoreCompileInputs.cache
+D:\Development\SchoolCode\numbermap\NumberMap\obj\Debug\net8.0\NumberMap.dll
+D:\Development\SchoolCode\numbermap\NumberMap\obj\Debug\net8.0\refint\NumberMap.dll
+D:\Development\SchoolCode\numbermap\NumberMap\obj\Debug\net8.0\NumberMap.pdb
+D:\Development\SchoolCode\numbermap\NumberMap\obj\Debug\net8.0\NumberMap.genruntimeconfig.cache
+D:\Development\SchoolCode\numbermap\NumberMap\obj\Debug\net8.0\ref\NumberMap.dll
