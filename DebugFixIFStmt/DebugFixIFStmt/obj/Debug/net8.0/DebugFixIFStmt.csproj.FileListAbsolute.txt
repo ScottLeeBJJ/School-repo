@@ -1,0 +1,16 @@
+D:\Development\SchoolCode\School-repo\DebugFixIFStmt\DebugFixIFStmt\obj\Debug\net8.0\DebugFixIFStmt.GeneratedMSBuildEditorConfig.editorconfig
+D:\Development\SchoolCode\School-repo\DebugFixIFStmt\DebugFixIFStmt\obj\Debug\net8.0\DebugFixIFStmt.AssemblyInfoInputs.cache
+D:\Development\SchoolCode\School-repo\DebugFixIFStmt\DebugFixIFStmt\obj\Debug\net8.0\DebugFixIFStmt.AssemblyInfo.cs
+D:\Development\SchoolCode\School-repo\DebugFixIFStmt\DebugFixIFStmt\obj\Debug\net8.0\DebugFixIFStmt.csproj.CoreCompileInputs.cache
+D:\Development\SchoolCode\School-repo\DebugFixIFStmt\DebugFixIFStmt\obj\Debug\net8.0\DebugFixIFStmt.sourcelink.json
+D:\Development\SchoolCode\School-repo\DebugFixIFStmt\DebugFixIFStmt\bin\Debug\net8.0\DebugFixIFStmt.exe
+D:\Development\SchoolCode\School-repo\DebugFixIFStmt\DebugFixIFStmt\bin\Debug\net8.0\DebugFixIFStmt.dll.config
+D:\Development\SchoolCode\School-repo\DebugFixIFStmt\DebugFixIFStmt\bin\Debug\net8.0\DebugFixIFStmt.deps.json
+D:\Development\SchoolCode\School-repo\DebugFixIFStmt\DebugFixIFStmt\bin\Debug\net8.0\DebugFixIFStmt.runtimeconfig.json
+D:\Development\SchoolCode\School-repo\DebugFixIFStmt\DebugFixIFStmt\bin\Debug\net8.0\DebugFixIFStmt.dll
+D:\Development\SchoolCode\School-repo\DebugFixIFStmt\DebugFixIFStmt\bin\Debug\net8.0\DebugFixIFStmt.pdb
+D:\Development\SchoolCode\School-repo\DebugFixIFStmt\DebugFixIFStmt\obj\Debug\net8.0\DebugFixIFStmt.dll
+D:\Development\SchoolCode\School-repo\DebugFixIFStmt\DebugFixIFStmt\obj\Debug\net8.0\refint\DebugFixIFStmt.dll
+D:\Development\SchoolCode\School-repo\DebugFixIFStmt\DebugFixIFStmt\obj\Debug\net8.0\DebugFixIFStmt.pdb
+D:\Development\SchoolCode\School-repo\DebugFixIFStmt\DebugFixIFStmt\obj\Debug\net8.0\DebugFixIFStmt.genruntimeconfig.cache
+D:\Development\SchoolCode\School-repo\DebugFixIFStmt\DebugFixIFStmt\obj\Debug\net8.0\ref\DebugFixIFStmt.dll

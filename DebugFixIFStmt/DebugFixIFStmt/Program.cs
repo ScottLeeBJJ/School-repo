@@ -16,6 +16,7 @@ namespace DebugFixIFStmt
             int firstChoice = 0, secondChoice = 0, thirdChoice = 0;
 
             // Print a header for the output
+            // I wasn't sure if you wanted this changed to student copy so I left it alone
             Console.WriteLine("Teacher's Copy");
 
             // Test cases with different values for the variables
