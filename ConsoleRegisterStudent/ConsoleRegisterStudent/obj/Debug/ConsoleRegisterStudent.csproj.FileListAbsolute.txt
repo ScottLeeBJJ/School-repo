@@ -14,3 +14,6 @@ D:\DevProjects\School-repo\ConsoleRegisterStudent\ConsoleRegisterStudent\obj\Deb
 D:\DevProjects\School-repo\ConsoleRegisterStudent\ConsoleRegisterStudent\obj\Debug\ConsoleRegisterStudent.csproj.CoreCompileInputs.cache
 D:\DevProjects\School-repo\ConsoleRegisterStudent\ConsoleRegisterStudent\obj\Debug\ConsoleRegisterStudent.exe
 D:\DevProjects\School-repo\ConsoleRegisterStudent\ConsoleRegisterStudent\obj\Debug\ConsoleRegisterStudent.pdb
+D:\DevProjects\School-repo\ConsoleRegisterStudent\ConsoleRegisterStudent\bin\Debug\ConsoleRegisterStudent.exe.config
+D:\DevProjects\School-repo\ConsoleRegisterStudent\ConsoleRegisterStudent\bin\Debug\ConsoleRegisterStudent.exe
+D:\DevProjects\School-repo\ConsoleRegisterStudent\ConsoleRegisterStudent\bin\Debug\ConsoleRegisterStudent.pdb
