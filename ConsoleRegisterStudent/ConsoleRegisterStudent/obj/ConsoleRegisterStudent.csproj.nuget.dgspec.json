@@ -40,7 +40,7 @@
           "dependencies": {
             "Microsoft.NET.Sdk.WindowsDesktop": {
               "target": "Package",
-              "version": "[5.0.4, )"
+              "version": "[3.0.0, )"
             }
           },
           "imports": [

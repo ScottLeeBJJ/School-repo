@@ -1,12 +1,73 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "Microsoft.NET.Sdk.WindowsDesktop/3.0.0": {
+        "type": "package"
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Microsoft.NET.Sdk.WindowsDesktop/3.0.0": {
+      "sha512": "QKDvRvsQRda7Q6qMJRDAHLHk4Y7VVqqtR7M6U0qSkv8XO+/fCjaXTDmggxX9UIlRYqmfsOinGwEJxZchLpUdbA==",
+      "type": "package",
+      "path": "microsoft.net.sdk.windowsdesktop/3.0.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "Sdk/Sdk.props",
+        "Sdk/Sdk.targets",
+        "THIRD-PARTY-NOTICES.TXT",
+        "microsoft.net.sdk.windowsdesktop.3.0.0.nupkg.sha512",
+        "microsoft.net.sdk.windowsdesktop.nuspec",
+        "targets/Microsoft.NET.Sdk.WindowsDesktop.props",
+        "targets/Microsoft.NET.Sdk.WindowsDesktop.targets",
+        "targets/Microsoft.WinFx.targets",
+        "tools/net472/PresentationBuildTasks.dll",
+        "tools/net472/System.Collections.Immutable.dll",
+        "tools/net472/System.Memory.dll",
+        "tools/net472/System.Numerics.Vectors.dll",
+        "tools/net472/System.Reflection.Metadata.dll",
+        "tools/net472/System.Reflection.MetadataLoadContext.dll",
+        "tools/net472/System.Runtime.CompilerServices.Unsafe.dll",
+        "tools/net472/cs/PresentationBuildTasks.resources.dll",
+        "tools/net472/de/PresentationBuildTasks.resources.dll",
+        "tools/net472/es/PresentationBuildTasks.resources.dll",
+        "tools/net472/fr/PresentationBuildTasks.resources.dll",
+        "tools/net472/it/PresentationBuildTasks.resources.dll",
+        "tools/net472/ja/PresentationBuildTasks.resources.dll",
+        "tools/net472/ko/PresentationBuildTasks.resources.dll",
+        "tools/net472/pl/PresentationBuildTasks.resources.dll",
+        "tools/net472/pt-BR/PresentationBuildTasks.resources.dll",
+        "tools/net472/ru/PresentationBuildTasks.resources.dll",
+        "tools/net472/tr/PresentationBuildTasks.resources.dll",
+        "tools/net472/zh-Hans/PresentationBuildTasks.resources.dll",
+        "tools/net472/zh-Hant/PresentationBuildTasks.resources.dll",
+        "tools/netcoreapp2.1/PresentationBuildTasks.dll",
+        "tools/netcoreapp2.1/System.Reflection.MetadataLoadContext.dll",
+        "tools/netcoreapp2.1/cs/PresentationBuildTasks.resources.dll",
+        "tools/netcoreapp2.1/de/PresentationBuildTasks.resources.dll",
+        "tools/netcoreapp2.1/es/PresentationBuildTasks.resources.dll",
+        "tools/netcoreapp2.1/fr/PresentationBuildTasks.resources.dll",
+        "tools/netcoreapp2.1/it/PresentationBuildTasks.resources.dll",
+        "tools/netcoreapp2.1/ja/PresentationBuildTasks.resources.dll",
+        "tools/netcoreapp2.1/ko/PresentationBuildTasks.resources.dll",
+        "tools/netcoreapp2.1/pl/PresentationBuildTasks.resources.dll",
+        "tools/netcoreapp2.1/pt-BR/PresentationBuildTasks.resources.dll",
+        "tools/netcoreapp2.1/ru/PresentationBuildTasks.resources.dll",
+        "tools/netcoreapp2.1/tr/PresentationBuildTasks.resources.dll",
+        "tools/netcoreapp2.1/zh-Hans/PresentationBuildTasks.resources.dll",
+        "tools/netcoreapp2.1/zh-Hant/PresentationBuildTasks.resources.dll",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "Microsoft.NET.Sdk.WindowsDesktop >= 5.0.4"
+      "Microsoft.NET.Sdk.WindowsDesktop >= 3.0.0"
     ]
   },
   "packageFolders": {
@@ -48,7 +109,7 @@
         "dependencies": {
           "Microsoft.NET.Sdk.WindowsDesktop": {
             "target": "Package",
-            "version": "[5.0.4, )"
+            "version": "[3.0.0, )"
           }
         },
         "imports": [
@@ -88,16 +149,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1102",
-      "level": "Error",
-      "message": "Unable to find package Microsoft.NET.Sdk.WindowsDesktop with version (>= 5.0.4)\r\n  - Found 2 version(s) in nuget.org [ Nearest version: 3.0.0 ]",
-      "libraryId": "Microsoft.NET.Sdk.WindowsDesktop",
-      "targetGraphs": [
-        "net5.0"
-      ]
-    }
-  ]
+  }
 }

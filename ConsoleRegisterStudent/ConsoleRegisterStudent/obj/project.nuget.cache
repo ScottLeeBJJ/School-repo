@@ -1,23 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "dRw6F7tLLsp/2tmvIhaBWK47x9V2MIYgKboSA/vaW4XUNYFwsaMxC7AnWp3Qa1CsIndlXhPWLtkzw9rw/qIBmg==",
-  "success": false,
+  "dgSpecHash": "w1W4zv9zWO6ZxgYe32JGnSlO7SrQksZJUXIqhY1EbMdAVxOVdqWH6uXu0YiZg5BRQqVuQxzKn6/NG1p6JZmZcg==",
+  "success": true,
   "projectFilePath": "D:\\DevProjects\\School-repo\\ConsoleRegisterStudent\\ConsoleRegisterStudent\\ConsoleRegisterStudent.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\scott\\.nuget\\packages\\microsoft.net.sdk.windowsdesktop\\3.0.0\\microsoft.net.sdk.windowsdesktop.3.0.0.nupkg.sha512",
     "C:\\Users\\scott\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
     "C:\\Users\\scott\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
     "C:\\Users\\scott\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
     "C:\\Users\\scott\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1102",
-      "level": "Error",
-      "message": "Unable to find package Microsoft.NET.Sdk.WindowsDesktop with version (>= 5.0.4)\r\n  - Found 2 version(s) in nuget.org [ Nearest version: 3.0.0 ]",
-      "libraryId": "Microsoft.NET.Sdk.WindowsDesktop",
-      "targetGraphs": [
-        "net5.0"
-      ]
-    }
-  ]
+  "logs": []
 }
