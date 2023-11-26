@@ -12,10 +12,10 @@ namespace ConsoleRegisterStudent
         static string[] CourseNames = { "", "IT 145", "IT 200", "IT 201", "IT 270", "IT 315", "IT 328", "IT 330" };
 
         // Entry point of the program
-        static void Main(string[] args)
+        static void Main()
         {
             // Create an instance of the Program class and start the program
-            (new Program()).Run();
+            new Program().Run();
         }
 
         // Main program logic
@@ -24,7 +24,7 @@ namespace ConsoleRegisterStudent
             // Variables to track user choices and credit hours
             int firstChoice = 0, secondChoice = 0, thirdChoice = 0;
             int totalCredit = 0;
-            string yesOrNo = "";
+            string yesOrNo;
 
             // Initial message
             Console.WriteLine("Teacher's Copy");
@@ -49,12 +49,7 @@ namespace ConsoleRegisterStudent
                             totalCredit += CreditHoursPerCourse;
 
                             // Update the first, second, or third choice based on availability
-                            if (firstChoice == 0)
-                                firstChoice = choice;
-                            else if (secondChoice == 0)
-                                secondChoice = choice;
-                            else if (thirdChoice == 0)
-                                thirdChoice = choice;
+                            UpdateCourseChoice(choice, ref firstChoice, ref secondChoice, ref thirdChoice);
                             break;
                         case -1:
                             // If choice is not recognized, display an error message
@@ -103,31 +98,38 @@ namespace ConsoleRegisterStudent
         // Validate the user choice based on business rules
         int ValidateChoice(int choice, int firstChoice, int secondChoice, int thirdChoice, int totalCredit)
         {
-            if (choice < 1 || choice > 7)
-                return -1; // Choice not recognized
-            else if (choice == firstChoice || choice == secondChoice || choice == thirdChoice)
-                return -2; // Already registered for the course
-            else if (totalCredit + CreditHoursPerCourse > CreditHoursLimit)
-                return -3; // Exceeding credit limit
-            return 0; // Valid choice
+            return (choice < 1 || choice > 7) ? -1 : // Choice not recognized
+                (choice == firstChoice || choice == secondChoice || choice == thirdChoice) ? -2 : // Already registered for the course
+                (totalCredit + CreditHoursPerCourse > CreditHoursLimit) ? -3 : // Exceeding credit limit
+                0; // Valid choice
         }
 
         // Display the current registration status
         void WriteCurrentRegistration(int firstChoice, int secondChoice, int thirdChoice)
         {
             Console.Write("You are currently registered for ");
-            if (secondChoice == 0)
-                Console.WriteLine($"{ChoiceToCourse(firstChoice)}");
-            else if (thirdChoice == 0)
-                Console.WriteLine($"{ChoiceToCourse(firstChoice)}, {ChoiceToCourse(secondChoice)}");
-            else
-                Console.WriteLine($"{ChoiceToCourse(firstChoice)}, {ChoiceToCourse(secondChoice)}, {ChoiceToCourse(thirdChoice)}");
+            Console.WriteLine(secondChoice == 0
+                ? $"{ChoiceToCourse(firstChoice)}"
+                : thirdChoice == 0
+                    ? $"{ChoiceToCourse(firstChoice)}, {ChoiceToCourse(secondChoice)}"
+                    : $"{ChoiceToCourse(firstChoice)}, {ChoiceToCourse(secondChoice)}, {ChoiceToCourse(thirdChoice)}");
         }
 
         // Convert course choice to course name
         string ChoiceToCourse(int choice)
         {
             return CourseNames[choice];
+        }
+
+        // Update the course choice based on availability
+        void UpdateCourseChoice(int choice, ref int firstChoice, ref int secondChoice, ref int thirdChoice)
+        {
+            if (firstChoice == 0)
+                firstChoice = choice;
+            else if (secondChoice == 0)
+                secondChoice = choice;
+            else if (thirdChoice == 0)
+                thirdChoice = choice;
         }
     }
 }
