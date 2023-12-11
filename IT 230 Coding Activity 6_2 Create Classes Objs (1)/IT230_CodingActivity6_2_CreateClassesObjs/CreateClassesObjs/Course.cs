@@ -6,13 +6,13 @@ namespace CreateClassesObjs
         private string name;
 
         // Method to set the name field to a given string value
-        public void setName(string name)
+        public void SetName(string name)
         {
             this.name = name;
         }
 
         // Method to retrieve the name field
-        public string getName()
+        public string GetName()
         {
             return name;
         }

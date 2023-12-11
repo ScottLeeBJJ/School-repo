@@ -11,3 +11,4 @@ C:\Users\Osama\OneDrive\Online Classes\4 SNHU\Dev\2015\IT-230\Me\LUs\Practices\W
 C:\Users\Osama\OneDrive\Online Classes\4 SNHU\Dev\2015\IT-230\Me\LUs\Practices\Week6\CreateClassesObjs\CreateClassesObjs\obj\Debug\CreateClassesObjs.csproj.GenerateResource.Cache
 C:\Users\Osama\OneDrive\Online Classes\4 SNHU\Dev\2015\IT-230\Me\LUs\Practices\Week6\CreateClassesObjs\CreateClassesObjs\obj\Debug\CreateClassesObjs.exe
 C:\Users\Osama\OneDrive\Online Classes\4 SNHU\Dev\2015\IT-230\Me\LUs\Practices\Week6\CreateClassesObjs\CreateClassesObjs\obj\Debug\CreateClassesObjs.pdb
+D:\Development\SchoolCode\School-repo\IT 230 Coding Activity 6_2 Create Classes Objs (1)\IT230_CodingActivity6_2_CreateClassesObjs\CreateClassesObjs\obj\Debug\CreateClassesObjs.csproj.AssemblyReference.cache
