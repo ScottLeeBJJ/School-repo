@@ -1,50 +1,27 @@
 namespace CreateClassesObjs
 {
-/// <summary>
-/// Interaction logic for MainWindow.xaml
-/// </summary>
-public partial class MainWindow : Window
-{
+    public class Course
+    {
+        // Private field to hold the name of the course
+        private string name;
 
-Course choice;
+        // Method to set the name field to a given string value
+        public void SetName(string name)
+        {
+            this.name = name;
+        }
 
-public MainWindow()
-{
-InitializeComponent();
-}
+        // Method to retrieve the name field
+        public string GetName()
+        {
+            return name;
+        }
 
-private void Window_Loaded(object sender, RoutedEventArgs e)
-{
-Course course1 = new Course();
-Course course2 = new Course();
-Course course3 = new Course();
-Course course4 = new Course();
-Course course5 = new Course();
-Course course6 = new Course();
-Course course7 = new Course();
-
-course1.setName("IT 145");
-course2.setName("IT 200");
-course3.setName("IT 201");
-course4.setName("IT 270");
-course5.setName("IT 315");
-course6.setName("IT 328");
-course7.setName("IT 330");
-
-this.comboBox.Items.Add(course1);
-this.comboBox.Items.Add(course2);
-this.comboBox.Items.Add(course3);
-this.comboBox.Items.Add(course4);
-this.comboBox.Items.Add(course5);
-this.comboBox.Items.Add(course6);
-this.comboBox.Items.Add(course7);
-}
-
-private void button_Click(object sender, RoutedEventArgs e)
-{
-choice = (Course)(this.comboBox.SelectedItem);
-this.listBox.Items.Add(choice);
-}
-
-}
+        // Method that overrides the ToString() method
+        public override string ToString()
+        {
+            // Return the name field
+            return name;
+        }
+    }
 }
