@@ -1,17 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace CreateClassesObjs
 {
@@ -20,7 +8,7 @@ namespace CreateClassesObjs
     /// </summary>
     public partial class MainWindow : Window
     {
-
+        // Class-level variable to store the selected course
         Course choice;
 
         public MainWindow()
@@ -28,8 +16,10 @@ namespace CreateClassesObjs
             InitializeComponent();
         }
 
+        // Event handler for the window loaded event
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
+            // Creating instances of Course and setting their names
             Course course1 = new Course();
             Course course2 = new Course();
             Course course3 = new Course();
@@ -46,8 +36,7 @@ namespace CreateClassesObjs
             course6.setName("IT 328");
             course7.setName("IT 330");
 
-
-
+            // Adding courses to the combo box
             this.comboBox.Items.Add(course1);
             this.comboBox.Items.Add(course2);
             this.comboBox.Items.Add(course3);
@@ -57,11 +46,12 @@ namespace CreateClassesObjs
             this.comboBox.Items.Add(course7);
         }
 
+        // Event handler for the button click event
         private void button_Click(object sender, RoutedEventArgs e)
         {
+            // Adding the selected course to the list box
             choice = (Course)(this.comboBox.SelectedItem);
             this.listBox.Items.Add(choice);
         }
-
     }
 }
