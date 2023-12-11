@@ -40,9 +40,9 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "dependencies": {
-            "Microsoft.Windows.Compatibility": {
+            "Microsoft.NET.Sdk.WindowsDesktop": {
               "target": "Package",
-              "version": "[5.0.2, )"
+              "version": "[8.0.0, )"
             }
           },
           "imports": [
@@ -59,9 +59,6 @@
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
-            },
-            "Microsoft.WindowsDesktop.App.WPF": {
-              "privateAssets": "none"
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-rc.2.23502.2/PortableRuntimeIdentifierGraph.json"

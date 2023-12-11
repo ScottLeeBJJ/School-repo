@@ -3,9 +3,6 @@ using System.Windows;
 
 namespace CreateClassesObjs
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
     {
         // Class-level variable to store the selected course
