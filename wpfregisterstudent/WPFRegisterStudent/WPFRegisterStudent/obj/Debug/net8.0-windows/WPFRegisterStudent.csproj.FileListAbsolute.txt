@@ -1,0 +1,5 @@
+D:\Development\SchoolCode\School-repo\wpfregisterstudent\WPFRegisterStudent\WPFRegisterStudent\obj\Debug\net8.0-windows\WPFRegisterStudent.csproj.AssemblyReference.cache
+D:\Development\SchoolCode\School-repo\wpfregisterstudent\WPFRegisterStudent\WPFRegisterStudent\obj\Debug\net8.0-windows\MainWindow.g.cs
+D:\Development\SchoolCode\School-repo\wpfregisterstudent\WPFRegisterStudent\WPFRegisterStudent\obj\Debug\net8.0-windows\App.g.cs
+D:\Development\SchoolCode\School-repo\wpfregisterstudent\WPFRegisterStudent\WPFRegisterStudent\obj\Debug\net8.0-windows\WPFRegisterStudent_MarkupCompile.cache
+D:\Development\SchoolCode\School-repo\wpfregisterstudent\WPFRegisterStudent\WPFRegisterStudent\obj\Debug\net8.0-windows\WPFRegisterStudent_MarkupCompile.lref
