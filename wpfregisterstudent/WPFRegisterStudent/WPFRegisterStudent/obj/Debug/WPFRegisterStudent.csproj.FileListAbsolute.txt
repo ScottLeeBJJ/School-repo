@@ -12,3 +12,5 @@ C:\Users\Osama\OneDrive\Online Classes\4 SNHU\Dev\2015\IT-230\Me\LUs\Practices\W
 C:\Users\Osama\OneDrive\Online Classes\4 SNHU\Dev\2015\IT-230\Me\LUs\Practices\WPFRegisterStudent\WPFRegisterStudent\obj\Debug\WPFRegisterStudent.csproj.GenerateResource.Cache
 C:\Users\Osama\OneDrive\Online Classes\4 SNHU\Dev\2015\IT-230\Me\LUs\Practices\WPFRegisterStudent\WPFRegisterStudent\obj\Debug\WPFRegisterStudent.exe
 C:\Users\Osama\OneDrive\Online Classes\4 SNHU\Dev\2015\IT-230\Me\LUs\Practices\WPFRegisterStudent\WPFRegisterStudent\obj\Debug\WPFRegisterStudent.pdb
+D:\Development\SchoolCode\School-repo\wpfregisterstudent\WPFRegisterStudent\WPFRegisterStudent\obj\Debug\WPFRegisterStudent.exe
+D:\Development\SchoolCode\School-repo\wpfregisterstudent\WPFRegisterStudent\WPFRegisterStudent\obj\Debug\WPFRegisterStudent.pdb
