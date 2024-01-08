@@ -1,7 +1,0 @@
-C:\Users\Osama\OneDrive\Online Classes\4 SNHU\Dev\2015\IT-230\Me\LUs\Practices\Week4\DebugFixIFStmt\DebugFixIFStmt\bin\Debug\DebugFixIFStmt.exe.config
-C:\Users\Osama\OneDrive\Online Classes\4 SNHU\Dev\2015\IT-230\Me\LUs\Practices\Week4\DebugFixIFStmt\DebugFixIFStmt\bin\Debug\DebugFixIFStmt.exe
-C:\Users\Osama\OneDrive\Online Classes\4 SNHU\Dev\2015\IT-230\Me\LUs\Practices\Week4\DebugFixIFStmt\DebugFixIFStmt\bin\Debug\DebugFixIFStmt.pdb
-C:\Users\Osama\OneDrive\Online Classes\4 SNHU\Dev\2015\IT-230\Me\LUs\Practices\Week4\DebugFixIFStmt\DebugFixIFStmt\obj\Debug\DebugFixIFStmt.exe
-C:\Users\Osama\OneDrive\Online Classes\4 SNHU\Dev\2015\IT-230\Me\LUs\Practices\Week4\DebugFixIFStmt\DebugFixIFStmt\obj\Debug\DebugFixIFStmt.pdb
-D:\Development\SchoolCode\School-repo\DebugFixIFStmt\DebugFixIFStmt\obj\Debug\DebugFixIFStmt.exe
-D:\Development\SchoolCode\School-repo\DebugFixIFStmt\DebugFixIFStmt\obj\Debug\DebugFixIFStmt.pdb

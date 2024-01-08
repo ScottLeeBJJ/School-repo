@@ -1,5 +1,0 @@
-D:\Development\SchoolCode\School-repo\IT 230 Coding Activity 6_2 Create Classes Objs (1)\IT230_CodingActivity6_2_CreateClassesObjs\CreateClassesObjs\obj\Debug\net8.0-windows\CreateClassesObjs.csproj.AssemblyReference.cache
-D:\Development\SchoolCode\School-repo\IT 230 Coding Activity 6_2 Create Classes Objs (1)\IT230_CodingActivity6_2_CreateClassesObjs\CreateClassesObjs\obj\Debug\net8.0-windows\MainWindow.g.cs
-D:\Development\SchoolCode\School-repo\IT 230 Coding Activity 6_2 Create Classes Objs (1)\IT230_CodingActivity6_2_CreateClassesObjs\CreateClassesObjs\obj\Debug\net8.0-windows\App.g.cs
-D:\Development\SchoolCode\School-repo\IT 230 Coding Activity 6_2 Create Classes Objs (1)\IT230_CodingActivity6_2_CreateClassesObjs\CreateClassesObjs\obj\Debug\net8.0-windows\CreateClassesObjs_MarkupCompile.cache
-D:\Development\SchoolCode\School-repo\IT 230 Coding Activity 6_2 Create Classes Objs (1)\IT230_CodingActivity6_2_CreateClassesObjs\CreateClassesObjs\obj\Debug\net8.0-windows\CreateClassesObjs_MarkupCompile.lref
